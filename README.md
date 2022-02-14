@@ -12,3 +12,4 @@ P(A) is prior and P(B|A) is measurement probability
 Theorem of total probability:  
 P(B) = Sum P(B/A)*P(A) to normilize the result  
 
+## Kalman Filters
