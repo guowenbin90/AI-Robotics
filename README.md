@@ -17,7 +17,7 @@ P(B) = Sum P(B/A)*P(A) to normilize the result
 X = estimate  
 P = Uncertatinty covariance  
 F = State transition matrix  
-v = motion vector  
+u = motion vector  
 z = measurement  
 H = measurement function  
 R = measurement noise  
@@ -29,7 +29,7 @@ K = P * H<sup>T</sup> * S<sup>-1</sup>
 x' = x + (K * y)  
 P' = (I - k * H) * P
 ### Prediction
-X' = Fx + v  
+X' = Fx + u  
 P' = F * P * F<sup>T</sup>  
 
 
