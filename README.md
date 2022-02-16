@@ -13,7 +13,7 @@ Theorem of total probability:
 P(B) = Sum P(B/A)*P(A) to normilize the result  
 
 ## Kalman Filters
-### Update
+
 X = estimate  
 P = Uncertatinty covariance  
 F = State transition matrix  
@@ -22,14 +22,14 @@ z = measurement
 H = measurement function  
 R = measurement noise  
 I = identity matrix  
-
-### Prediction
-X' = Fx + v  
-P' = F * P * F<sup>T</sup>  
-measurement update  
+### Measurement update  
 y = z - H * x  
 S = H * P * H<sup>T</sup> + R   
 K = P * H<sup>T</sup> * S<sup>-1</sup>  
 x' = x + (K * y)  
 P' = (I - k * H) * P
+### Prediction
+X' = Fx + v  
+P' = F * P * F<sup>T</sup>  
+
 
