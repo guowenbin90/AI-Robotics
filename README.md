@@ -30,6 +30,7 @@ x' = x + (K * y)
 P' = (I - k * H) * P
 ### Prediction
 X' = Fx + u  
-P' = F * P * F<sup>T</sup>  
+P' = F * P * F<sup>T</sup> 
 
+## Particle Filters
 
